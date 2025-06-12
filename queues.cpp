@@ -17,6 +17,9 @@ class Queues {
         cin >> num;
         cout << endl;
 
-        
+        if (FRONT == -1) {
+            FRONT = 0;
+            REAR = 0;
+        }
     }
 }
