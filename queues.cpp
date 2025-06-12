@@ -29,4 +29,13 @@ class Queues {
         }
         queue_array[REAR] = num;
     }
+
+    void remove() {
+        if (FRONT == -1) {
+            cout << "Queue underflow\n";
+            return;
+        }
+        cout << "\nElement deleted from the queue is: " << queue_array[FRONT] << "\n";
+
+    }
 }
